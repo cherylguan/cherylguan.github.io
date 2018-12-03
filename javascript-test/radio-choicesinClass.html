@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radio Choices</title>
+    <link rel="stylesheet" href="../theme/styles.css">
+    <link rel="stylesheet" href="../lib/elf-code.js">
+    <script src="../javascript-test/radio choices.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Radio Choices</h1>
+        <p><i>by Cheryl Guan</i></p>
+    </header>
+    <main>
+        <section>
+            <fieldset>
+                <legend>The User Selection</legend>
+                <p><b>User choice</b>: <span id="user-choice">Language</span></p>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Our Form</legend>
+                <!-- OUR FORM GOES HERE -->
+                <form id="sort-type" action="goThere">
+                    <input type="radio" id="rank" name="sorter" value="Rank" checked>
+                    <label for="rank">Rank</label>
+
+                    <input type="radio" id="language" name="sorter" value="Language">
+                    <label for="language">Language</label>
+                    <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                    </div>
+                </form>
+            </fieldset>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Cheryl Guan</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>

@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Radio Choices</title>
-    <link rel="stylesheet" href="../theme/styles.css">
-    <link rel="stylesheet" href="../lib/elf-code.js">
-    <script src="../javascript-test/radio choices.js"></script>
+    <link rel="stylesheet" href="./radio-choices.css">
+    <script src="../lib/elf-code.js"></script>
+    <script src="./radio-choices.js"></script>
 </head>
 
 <body>
@@ -18,25 +18,33 @@
     </header>
     <main>
         <section>
-            <fieldset>
-                <legend>The User Selection</legend>
-                <p><b>User choice</b>: <span id="user-choice">Language</span></p>
-            </fieldset>
+            <fieldset> 
+				<legend>The User Selection</legend> 
+				<p><b>User choice</b>: <span id="user-choice">Unknown</span></p> 
+			</fieldset>
         </section>
-        <section>
+        <section id="form-section">
             <fieldset>
                 <legend>Our Form</legend>
-                <!-- OUR FORM GOES HERE -->
                 <form id="sort-type" action="goThere">
-                    <input type="radio" id="rank" name="sorter" value="Rank" checked>
-                    <label for="rank">Rank</label>
+					<input type="radio" id="blue" name="sorter" value="Blue" checked>
+					<label for="blue">Blue</label>
 
-                    <input type="radio" id="language" name="sorter" value="Language">
-                    <label for="language">Language</label>
-                    <div>
-                        <input class="btn-padding" type="submit" value="Submit">
-                    </div>
-                </form>
+					<input type="radio" id="green" name="sorter" value="Green">
+					<label for="green">Green</label>
+					
+					<input type="radio" id="red" name="sorter" value="Red">
+					<label for="red">Red</label>
+					
+					<input type="radio" id="yellow" name="sorter" value="Yellow">
+					<label for="yellow">Yellow</label>
+					
+					<input type="radio" id="purple" name="sorter" value="Purple">
+					<label for="purple">Purple</label>
+					<div>
+						<input class="btn-padding" type="submit" value="Submit">
+					</div>
+				</form>
             </fieldset>
 
         </section>
