@@ -1,0 +1,27 @@
+body {
+
+    font-size: 133%;
+    font-family: sans-serif;
+    background:rgb(248, 190, 229);
+    margin:11%;
+
+
+}
+li{
+    background:black;
+    color: aliceblue;
+    padding:5px 5px  5px   0px;
+    display:inline-block;
+
+ 
+}
+
+
+a{
+    color:white;
+}
+
+
+p{
+    color:blue;
+}

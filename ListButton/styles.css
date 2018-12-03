@@ -1,0 +1,103 @@
+button{
+    background-color: hsl(177, 94%, 49%);
+    border: 12px ridge rgb(243, 8, 165);
+    color:black;
+    font-weight: bold;
+    text-align:center;
+    font-size: 16px;
+
+}
+
+header{
+    background: pink;
+    text-align: center;
+}
+
+
+header,p{
+    text-align: center;
+    font-weight:bold;
+    font-size:100%;
+    
+
+}
+
+h1.foo{
+    text-align: center;
+}
+h1#new-point{
+    text-align: right;
+
+}
+.byline{
+    font-style: italic;
+    font-size: 80%;
+}
+main{
+    background-color: gold;
+}
+footer{
+    background:greenyellow;
+    text-align: center;
+    font-size: 100%;
+
+}
+img#list-button-sky{
+    width:80px;
+    height:80px;
+    float:center;
+    
+
+
+}
+nav {        
+    background-color: aliceblue;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+button.test-button{
+    padding-top:25px;
+    border-width: 20px;
+    border-color:red
+    border-style: solid;
+   
+    border-radius: 35px;
+}
+button.test-button:hover{
+    background-color: antiquewhite;
+    boder-color:white;
+}   
+botton.margin-button{
+    margin:30px;
+}
+div#margin-div{
+    border: 2px black solid;
+    display:inline-block;
+}
+aside{
+    border:1px black solid;
+    font-size:120%;
+    font-style:italic;
+    border-radius: 20px;
+    float:right;
+    background-color:white;
+    width:33%;
+    margin-left:8px;
+    margin-right:8px;
+    padding:5px;
+    
+
+}

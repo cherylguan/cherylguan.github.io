@@ -1,0 +1,185 @@
+
+
+header{
+    background: pink;
+    text-align: center;
+}
+
+
+header,p{
+    text-align: center;
+    font-weight:bold;
+    font-size:100%;
+    
+
+}
+
+h1.foo{
+    text-align: center;
+}
+h1#new-point{
+    text-align: right;
+
+}
+.byline{
+    font-style: italic;
+    font-size: 80%;
+}
+main{
+    background-color: gold;
+}
+footer{
+    background:greenyellow;
+    text-align: center;
+    font-size: 100%;
+
+}
+img#list-button-sky{
+    width:80px;
+    height:80px;
+    float:center;
+}
+img#travel-2{
+    width:80px;
+    height:80px;
+    float:center;
+}
+img#travel-3{
+    width:80px;
+    height:80px;
+    float:center;
+}
+
+.nyc1-img{
+    width:40%; height: 40%;
+    float:right;
+}
+.nyc2-img{
+    width:40%; height: 40%;
+    float:left;
+}
+.nyc3-img{
+    width:40%; height: 40%;
+    float:right;
+}
+.nyc4-img{
+    width:40%; height: 40%;
+
+}
+
+.bs1-img{
+    width:40%; height: 40%;
+    float:center;
+}
+.bs2-img{
+    width:40%; height: 40%;
+    float:center;
+}
+.bs3-img{
+    width:40%; height: 40%;
+    float:center;
+}
+.bs4-img{
+    width:40%; height: 40%;
+    float:center;
+}
+.dc1-img{
+    width:40%; height: 40%;
+}
+.dc2-img{
+    width:40%; height: 40%;
+}
+.dc3-img{
+    width:40%; height: 40%;
+}
+.dc4-img{
+    width:40%; height: 40%;
+}
+.se1-img{
+    width:40%; height: 40%;
+    float:right;
+}
+.se2-img{
+    width:40%; height: 40%;
+    float:right;
+}
+.se3-img{
+    width:40%; height: 40%;
+    float:right;
+}
+.se4-img{
+    width:40%; height: 40%;
+
+}
+.sf1-img{
+    width:40%; height: 40%;
+
+}
+.sf4-img{
+    width:40%; height: 40%;
+
+}
+.sf2-img{
+    width:40%; height: 40%;
+}
+.sf3-img{
+    width:40%; height: 40%;
+}
+.la-img{
+    width:40%; height: 40%;
+}
+.sd-img{
+    width:40%; height: 40%;
+}
+
+.cc{
+    width:40%; height: 40%;
+    float:left;
+}
+.ia{
+    width:40%; height: 40%;
+   
+}
+.ms{
+    width:40%; height: 40%;
+}
+
+.ch{
+    width:40%; height: 40%;
+
+}
+.mm{
+    width:40%; height: 40%;
+ 
+}
+
+.vv{
+    width:40%; height: 40%;
+ 
+}
+.cher{
+    float:right;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+button {
+    float: left;
+    width: 150px;
+}
+
+input {
+    float: left;
+    width: 45px;
+}
+
+div {
+    clear: both;
+}
+
+body{
+background: lightgreen;
+
+}

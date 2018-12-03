@@ -1,0 +1,13 @@
+body{
+    font-size:133%;
+    font-family: sans-serif;
+    background:pink;
+   margin:11%;
+}
+
+li{
+    background:black;
+    color:white;
+    padding:5px 5px;
+    display:inline-block;
+}
