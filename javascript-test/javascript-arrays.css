@@ -1,0 +1,11 @@
+button{
+    background-color: hsl(177, 94%, 49%);
+    border: 12px ridge rgb(243, 8, 165);
+    color:black;
+    font-weight: bold;
+    text-align:center;
+    font-size: 16px;
+}
+p{
+    font-size: 25px;
+}
