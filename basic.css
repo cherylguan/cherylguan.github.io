@@ -1,7 +1,7 @@
 
 
 header{
-    background: pink;
+    background: greenyellow;
     text-align: center;
 }
 
@@ -12,6 +12,13 @@ header,p{
     font-size:100%;
     
 
+}
+
+li{
+    background:lightblue;
+    color: aliceblue;
+    padding:5px 5px 5px 0px;
+ 
 }
 
 h1.foo{
@@ -26,7 +33,7 @@ h1#new-point{
     font-size: 80%;
 }
 main{
-    background-color: gold;
+    background-color: greenyellow;
 }
 footer{
     background:greenyellow;
@@ -50,113 +57,7 @@ img#travel-3{
     float:center;
 }
 
-.nyc1-img{
-    width:40%; height: 40%;
-    float:right;
-}
-.nyc2-img{
-    width:40%; height: 40%;
-    float:left;
-}
-.nyc3-img{
-    width:40%; height: 40%;
-    float:right;
-}
-.nyc4-img{
-    width:40%; height: 40%;
 
-}
-
-.bs1-img{
-    width:40%; height: 40%;
-    float:center;
-}
-.bs2-img{
-    width:40%; height: 40%;
-    float:center;
-}
-.bs3-img{
-    width:40%; height: 40%;
-    float:center;
-}
-.bs4-img{
-    width:40%; height: 40%;
-    float:center;
-}
-.dc1-img{
-    width:40%; height: 40%;
-}
-.dc2-img{
-    width:40%; height: 40%;
-}
-.dc3-img{
-    width:40%; height: 40%;
-}
-.dc4-img{
-    width:40%; height: 40%;
-}
-.se1-img{
-    width:40%; height: 40%;
-    float:right;
-}
-.se2-img{
-    width:40%; height: 40%;
-    float:right;
-}
-.se3-img{
-    width:40%; height: 40%;
-    float:right;
-}
-.se4-img{
-    width:40%; height: 40%;
-
-}
-.sf1-img{
-    width:40%; height: 40%;
-
-}
-.sf4-img{
-    width:40%; height: 40%;
-
-}
-.sf2-img{
-    width:40%; height: 40%;
-}
-.sf3-img{
-    width:40%; height: 40%;
-}
-.la-img{
-    width:40%; height: 40%;
-}
-.sd-img{
-    width:40%; height: 40%;
-}
-
-.cc{
-    width:40%; height: 40%;
-    float:left;
-}
-.ia{
-    width:40%; height: 40%;
-   
-}
-.ms{
-    width:40%; height: 40%;
-}
-
-.ch{
-    width:40%; height: 40%;
-
-}
-.mm{
-    width:40%; height: 40%;
- 
-}
-
-.vv{
-    width:40%; height: 40%;
- 
-}
 .cher{
     float:right;
 }

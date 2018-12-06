@@ -49,7 +49,7 @@ const arrays = {
 		{ language: "Java", rank: 4},
 		{ language: "C#", rank: 5},
 		{ language: "Python", rank: 6},
-		{ language: "C/C++" rank: 7}
+		{ language: "C/C++", rank: 7}
 	]
 }
 
