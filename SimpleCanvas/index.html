@@ -1,0 +1,89 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Lentus</title>
+    <meta name="viewport" content="width=device-width">
+
+    <script type="text/javascript">
+        function AddScript(path) {
+            var versionUpdate = (new Date()).getTime();
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = path + "?v=" + versionUpdate;
+            document.head.appendChild(script);
+        }
+
+        var scripts = [
+            "script/Game/Bitmaps/CanvasBitmap.js",
+            "script/Game/Bitmaps/EmptyBitmap.js",
+            "script/Game/Bitmaps/RefBitmap.js",
+            "script/Game/Bitmaps/FillRectBitmap.js",
+            "script/Game/Bitmaps/PolyBitmap.js",
+            "script/Game/Bitmaps/StrokeRectBitmap.js",
+            "script/Game/Bitmaps/TextBitmap.js",
+
+            "script/Game/Canvas/Color.js",
+            "script/Game/Canvas/HitColorIndex.js",
+            "script/Game/Canvas/Sprite.js",
+            "script/Game/Canvas/SpriteRef.js",
+
+            "script/Game/UI/AdjusterUI.js",
+            "script/Game/UI/Alignment.js",
+            "script/Game/UI/ButtonUI.js",
+            "script/Game/UI/CheckboxUI.js",
+            "script/Game/UI/CloseIconUI.js",
+            "script/Game/UI/ConsoleView.js",
+            "script/Game/UI/CraftUI.js",
+            "script/Game/UI/InputUI.js",
+            "script/Game/UI/ListElementUI.js",
+            "script/Game/UI/PromptUI.js",
+            "script/Game/UI/TextUI.js",
+            "script/Game/UI/UIConstants.js",
+            "script/Game/UI/UIController.js",
+
+            "script/Game/Game.js",
+            "script/Game/GameController.js",
+            "script/Game/GameState.js",
+            "script/Game/GameSettings.js",
+            "script/Game/GameUpdateService.js",
+
+            "script/Game/Physics/Point.js",
+            "script/Game/Physics/Rectangle.js",
+            "script/Game/Physics/Space.js",
+
+            "script/Game/Resources/SpriteData/ArrowImg.js",
+            "script/Game/Resources/SpriteData/IconFrameImg.js",
+            "script/Game/Resources/SpriteData/MinusImg.js",
+            "script/Game/Resources/SpriteData/PlusImg.js",
+            "script/Game/Resources/SpriteData/TargetIconImg.js",
+            "script/Game/Resources/SpriteData/XImg.js",
+            "script/Game/Resources/AssetManager.js",
+
+            "script/Game/Util/GameUtil.js",
+            "script/Game/Util/MathUtil.js",
+
+            "script/Game/Windows/BaseWindow.js",
+            "script/Game/Windows/DrawWindow.js",
+
+            "script/JSLib/CanvasUtil.js",
+            "script/JSLib/JSUtil.js",
+            "script/JSLib/TypeChecker.js",
+            "script/JSLib/Validator.js"
+        ];
+
+        scripts.forEach((s) => { AddScript(s); });
+    </script>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            TraceInfo("window.onload");
+
+            var gameRef = new Game();
+            AddWatch("game", gameRef);
+            gameRef.Initialize();
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
